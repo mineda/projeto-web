@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>mainServlet</servlet-name>
+    <servlet-class>br.gov.sp.fatec.projetoweb.controller.MainController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mainServlet</servlet-name>
+    <url-pattern>/main</url-pattern>
+  </servlet-mapping>
+
 </web-app>
